@@ -1,0 +1,26 @@
+{
+  "name": "ugr0und/pscan",
+  "description": "Scanner de portas para fins didáticos",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "hamboldt",
+      "email": "lucasdearaujo88@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4": {
+      "PScan\\": "src"
+    }
+  },
+  "autoload-dev":{
+    "psr-4":{
+      "Tests\\": "tests"
+    }
+  },
+  "require": {
+    "minerva-framework/minerva-collections": "v1.2.0",
+    "phpunit/phpunit": "5.7.4"
+  }
+}
